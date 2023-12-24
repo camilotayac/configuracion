@@ -1,0 +1,8 @@
+pkg update && upgrade
+cd /data/data/com.termux/files/home/App
+mkdir myTermux
+cd myTermux
+git clone --depth=1 https://github.com/mayTermux/myTermux.git
+cd myTermux
+export COLUMNS LINES
+./install.sh
